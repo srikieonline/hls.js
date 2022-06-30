@@ -23,7 +23,7 @@ import type { HlsUrlParameters, LevelParsed } from '../types/level';
 import type { MediaPlaylist } from '../types/media-playlist';
 
 const chromeOrFirefox: boolean = /chrome|firefox/.test(
-  navigator.userAgent.toLowerCase()
+  "hello"
 );
 
 export default class LevelController extends BasePlaylistController {
